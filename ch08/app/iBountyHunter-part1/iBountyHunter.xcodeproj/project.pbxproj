@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCB04F88131211E30008B69E /* ibountyicon.png in Resources */ = {isa = PBXBuildFile; fileRef = BCB04F87131211E30008B69E /* ibountyicon.png */; };
+		BCB04F8D131215C40008B69E /* FugitiveListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB04F8B131215C40008B69E /* FugitiveListViewController.m */; };
+		BCB04F8E131215C40008B69E /* FugitiveListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB04F8C131215C40008B69E /* FugitiveListViewController.xib */; };
+		BCB04F92131216050008B69E /* CapturedListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB04F90131216050008B69E /* CapturedListViewController.m */; };
+		BCB04F93131216050008B69E /* CapturedListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB04F91131216050008B69E /* CapturedListViewController.xib */; };
+		BCB04F9613121CBA0008B69E /* Fugitive.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB04F9513121CB90008B69E /* Fugitive.m */; };
+		BCB04F981312204E0008B69E /* iBountyHunter.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = BCB04F971312204E0008B69E /* iBountyHunter.sqlite */; };
+		BCD70DBD130A21B300B1E63C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD70DBC130A21B300B1E63C /* UIKit.framework */; };
+		BCD70DBF130A21B300B1E63C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD70DBE130A21B300B1E63C /* Foundation.framework */; };
+		BCD70DC1130A21B300B1E63C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD70DC0130A21B300B1E63C /* CoreGraphics.framework */; };
+		BCD70DC3130A21B300B1E63C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD70DC2130A21B300B1E63C /* CoreData.framework */; };
+		BCD70DC9130A21B300B1E63C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCD70DC7130A21B300B1E63C /* InfoPlist.strings */; };
+		BCD70DCC130A21B300B1E63C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD70DCB130A21B300B1E63C /* main.m */; };
+		BCD70DCF130A21B300B1E63C /* iBountyHunterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD70DCE130A21B300B1E63C /* iBountyHunterAppDelegate.m */; };
+		BCD70DD2130A21B300B1E63C /* iBountyHunter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCD70DD0130A21B300B1E63C /* iBountyHunter.xcdatamodeld */; };
+		BCD70DD6130A21B300B1E63C /* iBountyHunterAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD70DD5130A21B300B1E63C /* iBountyHunterAppDelegate_iPhone.m */; };
+		BCD70DD9130A21B300B1E63C /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD70DD7130A21B300B1E63C /* MainWindow_iPhone.xib */; };
+		BCD70DDD130A21B300B1E63C /* iBountyHunterAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD70DDC130A21B300B1E63C /* iBountyHunterAppDelegate_iPad.m */; };
+		BCD70DE0130A21B300B1E63C /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCD70DDE130A21B300B1E63C /* MainWindow_iPad.xib */; };
+		BCD70DE7130A21B300B1E63C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD70DBC130A21B300B1E63C /* UIKit.framework */; };
+		BCD70DE8130A21B300B1E63C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD70DBE130A21B300B1E63C /* Foundation.framework */; };
+		BCD70DE9130A21B300B1E63C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD70DC0130A21B300B1E63C /* CoreGraphics.framework */; };
+		BCD70DEA130A21B300B1E63C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD70DC2130A21B300B1E63C /* CoreData.framework */; };
+		BCD70DF2130A21B300B1E63C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCD70DF0130A21B300B1E63C /* InfoPlist.strings */; };
+		BCD70DF5130A21B300B1E63C /* iBountyHunterTests.h in Resources */ = {isa = PBXBuildFile; fileRef = BCD70DF4130A21B300B1E63C /* iBountyHunterTests.h */; };
+		BCD70DF7130A21B300B1E63C /* iBountyHunterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD70DF6130A21B300B1E63C /* iBountyHunterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCD70DEB130A21B300B1E63C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD70DAF130A21B200B1E63C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD70DB7130A21B300B1E63C;
+			remoteInfo = iBountyHunter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCB04F87131211E30008B69E /* ibountyicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibountyicon.png; sourceTree = "<group>"; };
+		BCB04F8A131215C40008B69E /* FugitiveListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FugitiveListViewController.h; sourceTree = "<group>"; };
+		BCB04F8B131215C40008B69E /* FugitiveListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FugitiveListViewController.m; sourceTree = "<group>"; };
+		BCB04F8C131215C40008B69E /* FugitiveListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FugitiveListViewController.xib; sourceTree = "<group>"; };
+		BCB04F8F131216050008B69E /* CapturedListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CapturedListViewController.h; sourceTree = "<group>"; };
+		BCB04F90131216050008B69E /* CapturedListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CapturedListViewController.m; sourceTree = "<group>"; };
+		BCB04F91131216050008B69E /* CapturedListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CapturedListViewController.xib; sourceTree = "<group>"; };
+		BCB04F9413121CB90008B69E /* Fugitive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fugitive.h; sourceTree = "<group>"; };
+		BCB04F9513121CB90008B69E /* Fugitive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fugitive.m; sourceTree = "<group>"; };
+		BCB04F971312204E0008B69E /* iBountyHunter.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iBountyHunter.sqlite; sourceTree = "<group>"; };
+		BCD70DB8130A21B300B1E63C /* iBountyHunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBountyHunter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD70DBC130A21B300B1E63C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCD70DBE130A21B300B1E63C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCD70DC0130A21B300B1E63C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCD70DC2130A21B300B1E63C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BCD70DC6130A21B300B1E63C /* iBountyHunter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBountyHunter-Info.plist"; sourceTree = "<group>"; };
+		BCD70DC8130A21B300B1E63C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCD70DCA130A21B300B1E63C /* iBountyHunter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iBountyHunter-Prefix.pch"; sourceTree = "<group>"; };
+		BCD70DCB130A21B300B1E63C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD70DCD130A21B300B1E63C /* iBountyHunterAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iBountyHunterAppDelegate.h; sourceTree = "<group>"; };
+		BCD70DCE130A21B300B1E63C /* iBountyHunterAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBountyHunterAppDelegate.m; sourceTree = "<group>"; };
+		BCD70DD1130A21B300B1E63C /* iBountyHunter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iBountyHunter.xcdatamodel; sourceTree = "<group>"; };
+		BCD70DD4130A21B300B1E63C /* iBountyHunterAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iBountyHunterAppDelegate_iPhone.h; path = iPhone/iBountyHunterAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		BCD70DD5130A21B300B1E63C /* iBountyHunterAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = iBountyHunterAppDelegate_iPhone.m; path = iPhone/iBountyHunterAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		BCD70DD8130A21B300B1E63C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		BCD70DDB130A21B300B1E63C /* iBountyHunterAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = iBountyHunterAppDelegate_iPad.h; path = iPad/iBountyHunterAppDelegate_iPad.h; sourceTree = "<group>"; };
+		BCD70DDC130A21B300B1E63C /* iBountyHunterAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = iBountyHunterAppDelegate_iPad.m; path = iPad/iBountyHunterAppDelegate_iPad.m; sourceTree = "<group>"; };
+		BCD70DDF130A21B300B1E63C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		BCD70DE6130A21B300B1E63C /* iBountyHunterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBountyHunterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD70DEF130A21B300B1E63C /* iBountyHunterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBountyHunterTests-Info.plist"; sourceTree = "<group>"; };
+		BCD70DF1130A21B300B1E63C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCD70DF3130A21B300B1E63C /* iBountyHunterTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iBountyHunterTests-Prefix.pch"; sourceTree = "<group>"; };
+		BCD70DF4130A21B300B1E63C /* iBountyHunterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iBountyHunterTests.h; sourceTree = "<group>"; };
+		BCD70DF6130A21B300B1E63C /* iBountyHunterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBountyHunterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCD70DB5130A21B300B1E63C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD70DBD130A21B300B1E63C /* UIKit.framework in Frameworks */,
+				BCD70DBF130A21B300B1E63C /* Foundation.framework in Frameworks */,
+				BCD70DC1130A21B300B1E63C /* CoreGraphics.framework in Frameworks */,
+				BCD70DC3130A21B300B1E63C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD70DE2130A21B300B1E63C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD70DE7130A21B300B1E63C /* UIKit.framework in Frameworks */,
+				BCD70DE8130A21B300B1E63C /* Foundation.framework in Frameworks */,
+				BCD70DE9130A21B300B1E63C /* CoreGraphics.framework in Frameworks */,
+				BCD70DEA130A21B300B1E63C /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCD70DAD130A21B200B1E63C = {
+			isa = PBXGroup;
+			children = (
+				BCD70DC4130A21B300B1E63C /* iBountyHunter */,
+				BCD70DED130A21B300B1E63C /* iBountyHunterTests */,
+				BCD70DBB130A21B300B1E63C /* Frameworks */,
+				BCD70DB9130A21B300B1E63C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCD70DB9130A21B300B1E63C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD70DB8130A21B300B1E63C /* iBountyHunter.app */,
+				BCD70DE6130A21B300B1E63C /* iBountyHunterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCD70DBB130A21B300B1E63C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCD70DBC130A21B300B1E63C /* UIKit.framework */,
+				BCD70DBE130A21B300B1E63C /* Foundation.framework */,
+				BCD70DC0130A21B300B1E63C /* CoreGraphics.framework */,
+				BCD70DC2130A21B300B1E63C /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCD70DC4130A21B300B1E63C /* iBountyHunter */ = {
+			isa = PBXGroup;
+			children = (
+				BCB04F971312204E0008B69E /* iBountyHunter.sqlite */,
+				BCD70DCD130A21B300B1E63C /* iBountyHunterAppDelegate.h */,
+				BCD70DCE130A21B300B1E63C /* iBountyHunterAppDelegate.m */,
+				BCD70DD0130A21B300B1E63C /* iBountyHunter.xcdatamodeld */,
+				BCD70DD3130A21B300B1E63C /* iPhone */,
+				BCD70DDA130A21B300B1E63C /* iPad */,
+				BCD70DC5130A21B300B1E63C /* Supporting Files */,
+				BCB04F9413121CB90008B69E /* Fugitive.h */,
+				BCB04F9513121CB90008B69E /* Fugitive.m */,
+			);
+			path = iBountyHunter;
+			sourceTree = "<group>";
+		};
+		BCD70DC5130A21B300B1E63C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCB04F87131211E30008B69E /* ibountyicon.png */,
+				BCD70DC6130A21B300B1E63C /* iBountyHunter-Info.plist */,
+				BCD70DC7130A21B300B1E63C /* InfoPlist.strings */,
+				BCD70DCA130A21B300B1E63C /* iBountyHunter-Prefix.pch */,
+				BCD70DCB130A21B300B1E63C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCD70DD3130A21B300B1E63C /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				BCD70DD4130A21B300B1E63C /* iBountyHunterAppDelegate_iPhone.h */,
+				BCD70DD5130A21B300B1E63C /* iBountyHunterAppDelegate_iPhone.m */,
+				BCD70DD7130A21B300B1E63C /* MainWindow_iPhone.xib */,
+				BCB04F8A131215C40008B69E /* FugitiveListViewController.h */,
+				BCB04F8B131215C40008B69E /* FugitiveListViewController.m */,
+				BCB04F8C131215C40008B69E /* FugitiveListViewController.xib */,
+				BCB04F8F131216050008B69E /* CapturedListViewController.h */,
+				BCB04F90131216050008B69E /* CapturedListViewController.m */,
+				BCB04F91131216050008B69E /* CapturedListViewController.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		BCD70DDA130A21B300B1E63C /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				BCD70DDB130A21B300B1E63C /* iBountyHunterAppDelegate_iPad.h */,
+				BCD70DDC130A21B300B1E63C /* iBountyHunterAppDelegate_iPad.m */,
+				BCD70DDE130A21B300B1E63C /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		BCD70DED130A21B300B1E63C /* iBountyHunterTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD70DF4130A21B300B1E63C /* iBountyHunterTests.h */,
+				BCD70DF6130A21B300B1E63C /* iBountyHunterTests.m */,
+				BCD70DEE130A21B300B1E63C /* Supporting Files */,
+			);
+			path = iBountyHunterTests;
+			sourceTree = "<group>";
+		};
+		BCD70DEE130A21B300B1E63C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCD70DEF130A21B300B1E63C /* iBountyHunterTests-Info.plist */,
+				BCD70DF0130A21B300B1E63C /* InfoPlist.strings */,
+				BCD70DF3130A21B300B1E63C /* iBountyHunterTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCD70DB7130A21B300B1E63C /* iBountyHunter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD70DFA130A21B300B1E63C /* Build configuration list for PBXNativeTarget "iBountyHunter" */;
+			buildPhases = (
+				BCD70DB4130A21B300B1E63C /* Sources */,
+				BCD70DB5130A21B300B1E63C /* Frameworks */,
+				BCD70DB6130A21B300B1E63C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iBountyHunter;
+			productName = iBountyHunter;
+			productReference = BCD70DB8130A21B300B1E63C /* iBountyHunter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCD70DE5130A21B300B1E63C /* iBountyHunterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD70DFD130A21B300B1E63C /* Build configuration list for PBXNativeTarget "iBountyHunterTests" */;
+			buildPhases = (
+				BCD70DE1130A21B300B1E63C /* Sources */,
+				BCD70DE2130A21B300B1E63C /* Frameworks */,
+				BCD70DE3130A21B300B1E63C /* Resources */,
+				BCD70DE4130A21B300B1E63C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD70DEC130A21B300B1E63C /* PBXTargetDependency */,
+			);
+			name = iBountyHunterTests;
+			productName = iBountyHunterTests;
+			productReference = BCD70DE6130A21B300B1E63C /* iBountyHunterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCD70DAF130A21B200B1E63C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Element 84, LLC";
+			};
+			buildConfigurationList = BCD70DB2130A21B200B1E63C /* Build configuration list for PBXProject "iBountyHunter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCD70DAD130A21B200B1E63C;
+			productRefGroup = BCD70DB9130A21B300B1E63C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD70DB7130A21B300B1E63C /* iBountyHunter */,
+				BCD70DE5130A21B300B1E63C /* iBountyHunterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCD70DB6130A21B300B1E63C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD70DC9130A21B300B1E63C /* InfoPlist.strings in Resources */,
+				BCD70DD9130A21B300B1E63C /* MainWindow_iPhone.xib in Resources */,
+				BCD70DE0130A21B300B1E63C /* MainWindow_iPad.xib in Resources */,
+				BCB04F88131211E30008B69E /* ibountyicon.png in Resources */,
+				BCB04F8E131215C40008B69E /* FugitiveListViewController.xib in Resources */,
+				BCB04F93131216050008B69E /* CapturedListViewController.xib in Resources */,
+				BCB04F981312204E0008B69E /* iBountyHunter.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD70DE3130A21B300B1E63C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD70DF2130A21B300B1E63C /* InfoPlist.strings in Resources */,
+				BCD70DF5130A21B300B1E63C /* iBountyHunterTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BCD70DE4130A21B300B1E63C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD70DB4130A21B300B1E63C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD70DCC130A21B300B1E63C /* main.m in Sources */,
+				BCD70DCF130A21B300B1E63C /* iBountyHunterAppDelegate.m in Sources */,
+				BCD70DD2130A21B300B1E63C /* iBountyHunter.xcdatamodeld in Sources */,
+				BCD70DD6130A21B300B1E63C /* iBountyHunterAppDelegate_iPhone.m in Sources */,
+				BCD70DDD130A21B300B1E63C /* iBountyHunterAppDelegate_iPad.m in Sources */,
+				BCB04F8D131215C40008B69E /* FugitiveListViewController.m in Sources */,
+				BCB04F92131216050008B69E /* CapturedListViewController.m in Sources */,
+				BCB04F9613121CBA0008B69E /* Fugitive.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD70DE1130A21B300B1E63C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD70DF7130A21B300B1E63C /* iBountyHunterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCD70DEC130A21B300B1E63C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD70DB7130A21B300B1E63C /* iBountyHunter */;
+			targetProxy = BCD70DEB130A21B300B1E63C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCD70DC7130A21B300B1E63C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD70DC8130A21B300B1E63C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCD70DD7130A21B300B1E63C /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD70DD8130A21B300B1E63C /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		BCD70DDE130A21B300B1E63C /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD70DDF130A21B300B1E63C /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		BCD70DF0130A21B300B1E63C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD70DF1130A21B300B1E63C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCD70DF8130A21B300B1E63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCD70DF9130A21B300B1E63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCD70DFB130A21B300B1E63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBountyHunter/iBountyHunter-Prefix.pch";
+				INFOPLIST_FILE = "iBountyHunter/iBountyHunter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCD70DFC130A21B300B1E63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBountyHunter/iBountyHunter-Prefix.pch";
+				INFOPLIST_FILE = "iBountyHunter/iBountyHunter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BCD70DFE130A21B300B1E63C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iBountyHunter.app/iBountyHunter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBountyHunterTests/iBountyHunterTests-Prefix.pch";
+				INFOPLIST_FILE = "iBountyHunterTests/iBountyHunterTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BCD70DFF130A21B300B1E63C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iBountyHunter.app/iBountyHunter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iBountyHunterTests/iBountyHunterTests-Prefix.pch";
+				INFOPLIST_FILE = "iBountyHunterTests/iBountyHunterTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD70DB2130A21B200B1E63C /* Build configuration list for PBXProject "iBountyHunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD70DF8130A21B300B1E63C /* Debug */,
+				BCD70DF9130A21B300B1E63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD70DFA130A21B300B1E63C /* Build configuration list for PBXNativeTarget "iBountyHunter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD70DFB130A21B300B1E63C /* Debug */,
+				BCD70DFC130A21B300B1E63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD70DFD130A21B300B1E63C /* Build configuration list for PBXNativeTarget "iBountyHunterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD70DFE130A21B300B1E63C /* Debug */,
+				BCD70DFF130A21B300B1E63C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BCD70DD0130A21B300B1E63C /* iBountyHunter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BCD70DD1130A21B300B1E63C /* iBountyHunter.xcdatamodel */,
+			);
+			currentVersion = BCD70DD1130A21B300B1E63C /* iBountyHunter.xcdatamodel */;
+			path = iBountyHunter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BCD70DAF130A21B200B1E63C /* Project object */;
+}

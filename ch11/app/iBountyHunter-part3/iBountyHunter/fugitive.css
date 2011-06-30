@@ -1,0 +1,38 @@
+dl.dossier
+{
+    min-width: 300px;
+    min-height: 150px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 0.3em 0.3em 0;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(95%, #FAFAFA), color-stop(95%, #FAFAFA), color-stop(100%, #DDF));
+    background-size: 1.6em 1.6em;
+	margin: 0;
+	padding: .5em;
+    font-family: "AmericanTypewriter";
+}
+
+.dossier dt
+{
+    padding-right: .2em;
+    display: run-in;
+    font-weight: bold;
+}
+
+.dossier dd
+{
+    margin-top: .5em;
+    margin-left: .5em;
+    margin-right: .5em;
+    padding-right: .5em;
+}
+
+.dossier:after 
+{
+    display:block;
+    content:"";
+    position:absolute;
+    width: 50px;
+    height: 35px;
+    background: transparent url(pushpin.png);
+    top: -.05em;
+    left: 50%;
+}

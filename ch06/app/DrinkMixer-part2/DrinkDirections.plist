@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>directions</key>
+		<string>Shake vigorously and serve.</string>
+		<key>ingredients</key>
+		<string>white creme de menthe, peach liqueur vodka,  hot chocolate</string>
+		<key>name</key>
+		<string>After Dinner Mint</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Pour the ingredients into a glass and stir.</string>
+		<key>ingredients</key>
+		<string>scotch whisky, coconut rum, cherry brandy, lemonade</string>
+		<key>name</key>
+		<string>Aftershock</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Pour all ingredients into a shaker. Shake well and strain into a Martini glass.</string>
+		<key>ingredients</key>
+		<string>Vodka, Sour Apple Schnapps, apple juice</string>
+		<key>name</key>
+		<string>Apple Martini</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Pour the liqueur into a glass, add the cider, and serve cold.</string>
+		<key>ingredients</key>
+		<string>cinnamon schnapps,	hard cider</string>
+		<key>name</key>
+		<string>Baked Apple</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Shake ingredients with ice, strain into a cocktail glass, and serve.</string>
+		<key>ingredients</key>
+		<string>blackberry brandy, white creme de menthe</string>
+		<key>name</key>
+		<string>Bee Stinger</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Combine all ingredients in a cocktail shaker over ice. Close the shaker and shake briskly two or three times. Strain into a large martini glass, and serve.</string>
+		<key>ingredients</key>
+		<string>gin	sweet vermouth, sweet and sour mix, sprite, cranberry juice</string>
+		<key>name</key>
+		<string>Beetle Juice</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Combine chilled ingredients in a punch bowl. Serve over crushed ice in tall glasses or punch glasses. Garnish with a slice of lime and/or a maraschino cherry.</string>
+		<key>ingredients</key>
+		<string>vodka, orange juice,	light rum,	triple sec,	lime juice,	pineapple juice</string>
+		<key>name</key>
+		<string>Black Eyed Susan</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Combine both while cold.</string>
+		<key>ingredients</key>
+		<string>vodka,grapefruit juice</string>
+		<key>name</key>
+		<string>Blue Dog</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Pour the vodka, rum, lime juice and orange juice into a cocktail shaker with ice cubes. Shake well, and strain into a highball glass 1/3 filled with ice cubes. Fill with ginger ale, add creme de bananes on top, stir once and serve.</string>
+		<key>ingredients</key>
+		<string>vodka, white rum, creme de bananes,orange juice, lime juice,	 ginger ale </string>
+		<key>name</key>
+		<string>Bookmaker&apos;s Luck</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a sour glass.</string>
+		<key>ingredients</key>
+		<string>gin, triple sec, lemon juice, grenadine syrup, egg white</string>
+		<key>name</key>
+		<string>Boxcar</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Combine ingredients in a coffee mug. Top with whipped cream and coconut shavings.</string>
+		<key>ingredients</key>
+		<string>hazelnut liqueur,coconut rum, irish cream, coffee</string>
+		<key>name</key>
+		<string>Cafe Joy</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Pour rum and Cola into a highball glass on the rocks. Mix until the cola fizzes at the top, and serve.</string>
+		<key>ingredients</key>
+		<string>Spiced rum, cola</string>
+		<key>name</key>
+		<string>Captain and Cola</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Mix  in a blender and pour into a small snifter.</string>
+		<key>ingredients</key>
+		<string>whiskey,vanilla ice cream</string>
+		<key>name</key>
+		<string>Cat&apos;s Meow</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Shake ingredients and strain into a chilled highball glass. Garnish a slice of orange and a cherry.</string>
+		<key>ingredients</key>
+		<string>Cherry liqueur, peach schnapps, orange juice</string>
+		<key>name</key>
+		<string>Cupid&apos;s Cocktail</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Shake rum, amaretto, and orange juice in a shaker filled with ice. Strain into a highball glass over ice. Add grenadine and garnish with a pineapple wedge and a strawberry</string>
+		<key>ingredients</key>
+		<string>coconut rum, amaretto almond liqueur, orange juice,  grenadine syrup</string>
+		<key>name</key>
+		<string>Day at the Beach</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Add ice to a collins glass. Pour herbal liqueur and vodka over the ice. Add root beer to fill glass/to taste, and add a squeeze of a lemon-quarter.</string>
+		<key>ingredients</key>
+		<string>herbal liqueur, vodka, lemons, root beer</string>
+		<key>name</key>
+		<string>Deer Hunter</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Pour ingredients into a Rocks Glass filled with ice.</string>
+		<key>ingredients</key>
+		<string>Wild Turkey, tabasco Sauce</string>
+		<key>name</key>
+		<string>Firecracker</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Simply pour the ingredients into a double shot shot glass and serve.</string>
+		<key>ingredients</key>
+		<string>Rum, energy drink, orange juice</string>
+		<key>name</key>
+		<string>Flaming Nerd</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Layer in sequence in a shot glass.</string>
+		<key>ingredients</key>
+		<string>irish cream, butterscotch schnapps, cinnamon schnapps</string>
+		<key>name</key>
+		<string>Gingerbread Man</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Mix vodka and sweet and sour mix proportionally in any size batch, then add sprite or 7-up and cranberry accordingly, a dash each per serving. </string>
+		<key>ingredients</key>
+		<string>vodka, sweet and sour mix, sprite, cranberry juice</string>
+		<key>name</key>
+		<string>Key West Lemonade</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Add sugar to the rim of an old-fashioned glass, and drop a cube or packet of sugar into the bottom of the glass. Pour vodka and lemon juice into a stainless steel shaker over ice, and shake until completely cold. Pour into the prepared old-fashioned glass, and serve.</string>
+		<key>ingredients</key>
+		<string>Citron vodka, Lemon, Sugar</string>
+		<key>name</key>
+		<string>Lemon Drop</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Shake vodka and irish cream over ice then pour into a shooter.</string>
+		<key>ingredients</key>
+		<string>vodka, irish creme</string>
+		<key>name</key>
+		<string>Letter Bomb</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Mix ingredients together over ice in a glass. Pour into a shaker and give one brisk shake. Pour back into the glass and make sure there is a touch of fizz at the top. Garnish with lemon.</string>
+		<key>ingredients</key>
+		<string>vodka, tequila, gin, rum, triple sec, sour mix, cola</string>
+		<key>name</key>
+		<string>Long Island Ice Tea</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Roll rim of glass in additional orange drink. Shake ingredients in a shaker with ice. Strain and serve in cocktail glasses.</string>
+		<key>ingredients</key>
+		<string>orange vodka, triple sec, powdered orange drink</string>
+		<key>name</key>
+		<string>Lost in Space</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Add bourbon wiskey and sweet vermouth. Mix and serve in martini glass.</string>
+		<key>ingredients</key>
+		<string>sweet vermouth, bourbon whiskey, bitters, maraschino cherry	twist, orange peel</string>
+		<key>name</key>
+		<string>Manhattan</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Pour into an old-fashioned glass three-quarters filled with broken ice.</string>
+		<key>ingredients</key>
+		<string>melon liqueur, white rum, peach liqueur, lime juice, lemonade</string>
+		<key>name</key>
+		<string>Melon Tree</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Pour a shot of tequila and amaretto in seperate shot glasses. Place a very thin layer of 151 on top of both shots. Shoot the tequila first, then carefully drop the amaretto into a mug of beer. Chug.</string>
+		<key>ingredients</key>
+		<string>tequila, almond liqueur, 151 rum, beer</string>
+		<key>name</key>
+		<string>Mexican Bomb</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Mix pina colada with 2.5 oz. of rum w/ ice. Set aside. While frozen, add pina colada mix to a cocktail glass. Add the daiquiri mix on top, keeping it seperated from the pina colada mix. Serve.</string>
+		<key>ingredients</key>
+		<string>151 proof rum,	pina colada mix, daiquiri mix</string>
+		<key>name</key>
+		<string>Miami vice</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Place mint leaves in bottom of glass. Add crushed ice, Spiced Rum, sugar, and lime juice, and muddle. Add soda water and garnish with mint leaves.</string>
+		<key>ingredients</key>
+		<string>Light rum, lime, sugar, mint,  soda water</string>
+		<key>name</key>
+		<string>Mojito</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Use a standard white wine glass half filled with ice before making. Pour the alcohol in with rum first then the triple sec. Use just a splash of pineapple juice and orange juice first. then add the cranberry juice; garnish with a cherry.</string>
+		<key>ingredients</key>
+		<string>white rum, triple sec, cranberry juice, pineapple juice, orange juice</string>
+		<key>name</key>
+		<string>Music City Sunset</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Combine all ingredients in a mixing glass, chill and strain into a cocktail glass. Garnish with a twist of lemon, and serve.</string>
+		<key>ingredients</key>
+		<string>strawberry liqueur, orange liqueur, raspberry liqueur, lime juice</string>
+		<key>name</key>
+		<string>Neapolitan</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Combine ingredients in a mixing glass with one cup of crushed ice. Strain into a margarita glass and serve immediately.</string>
+		<key>ingredients</key>
+		<string>bourbon,	mountain dew,	cinnamon schnapps</string>
+		<key>name</key>
+		<string>Neon Geek</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Shake all ingredients with ice, strain into a cocktail glass, and serve.
+</string>
+		<key>ingredients</key>
+		<string>gin, lemon juice, orange Juice</string>
+		<key>name</key>
+		<string>Polo Cocktail</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Mix ingredients until chilled in a cocktail shaker with ice cubes. Strain into a cocktail glass, garnish with cherries, and serve.</string>
+		<key>ingredients</key>
+		<string>blue liqueur, peach schnapps, light rum, vodka, grenadine, lemon lime soda</string>
+		<key>name</key>
+		<string>Purple Yummy</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Heat and pour into an irish coffee cup. Top with whipped cream, garnish with a tall cinnamon stick, and serve.
+</string>
+		<key>ingredients</key>
+		<string>orange liqueur,	cinnamon schnapps,	vodka, cranberry juice</string>
+		<key>name</key>
+		<string>Red Rudolph</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Add Spiced Rum, blackberry liqueur, crème de banana liqueur, orange juice, grenadine, and crushed ice in a blender. Blend until slushy and pour into glass.</string>
+		<key>ingredients</key>
+		<string>light rum, blackberry brandy, banana liqueur, grenadine syrup	,orange juice	, pineapple juice	,dark rum</string>
+		<key>name</key>
+		<string>Rum Runner</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Fill shaker with ice, add ingredients, chill, strain.
+</string>
+		<key>ingredients</key>
+		<string>vodka, irish creme, kahlua, frangelico, milk</string>
+		<key>name</key>
+		<string>Sandbar Sleeper</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Add ingredients with a bit of ice in a blender. Blend and then strain into a cocktail glass. Garnish w/ strawberry.</string>
+		<key>ingredients</key>
+		<string>strawberry schnapps, ice, banana liqueur,  malibu rum, pineapple juice</string>
+		<key>name</key>
+		<string>Strawberry Daiquiri</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>151 first, then peppermint liqueur.</string>
+		<key>ingredients</key>
+		<string>151 proof rum,	peppermint liqueur</string>
+		<key>name</key>
+		<string>Terminator</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Shake together over ice, and strain into a highball glass. Garnish with a lime wedge and a cherry.</string>
+		<key>ingredients</key>
+		<string>lemon vodka, pepper vodka, kurant vodka, vodka, orange juice</string>
+		<key>name</key>
+		<string>Vodka Mixer</string>
+	</dict>
+</array>
+</plist>
